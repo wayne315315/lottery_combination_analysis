@@ -1,0 +1,34 @@
+### Original code are moved to 'deprecated' folder.
+
+# TODO
+# Few Suggestion :
+
+- Coding Style (Pythonic)
+1.	The repository name is too long. Choose a short but precise word, 
+	like "lottery".
+
+2. 	Use inline comments only when it's necessary.
+
+3.	If possible, add docstrings for all modules, classes and functions.
+
+4.	Sublime text: Please set "word_wrap": "true", "wrap_width": 80
+	to increase readibility
+
+# TODO
+- Robustness
+1. 	Use try... except... to catch exception and avoid system crash
+
+2.	If possible, try to write Python 2/3 compatible code by leveraging
+	'six' and '__future__' modules
+
+3. 	Try to import modules, classes or functions absolutely to avoid ambiguity. 
+	In addition, avoid import unnecesary objects to save system resource. 
+	It's always a good practice to import necessary objects only.
+
+4. 	Lazy initialization can save system resource. It's a good practice to use 
+	generator and iterator when dealing with huge data. Avoid instantiate unnecessary resource.
+
+5.	Exploit the advantage of cross-platform package such as os.path, tempfile 
+	module. Avoid low level hard cording.
+
+Lin Hsuan Yu 2018
